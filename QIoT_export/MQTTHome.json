@@ -1,0 +1,128 @@
+{
+    "result": {
+        "iotapplication": {
+            "things": [
+                {
+                    "thingattributes": {},
+                    "description": "7697 with relay",
+                    "thingId": "8fa8300e-b543-4345-bf20-bbbff9e0e167",
+                    "thingname": "RELAY7697",
+                    "thingtypeattributes": null,
+                    "type": "Custom",
+                    "resources": [
+                        {
+                            "default_value": "",
+                            "description": "",
+                            "datatype": "Boolean",
+                            "resourceid": "HomeRelay",
+                            "old_resourcename": "HomeRelay",
+                            "maxvalue": "",
+                            "minvalue": "",
+                            "old_resourcetype_id": "586dc3615a6b6800065c0226",
+                            "resoucetypeqiotid": "qiot.custom.boolean",
+                            "old_resourceObjectid": "5a2790979c31dc002fabe890",
+                            "old_resourceid": "HomeRelay",
+                            "resourcename": "HomeRelay",
+                            "unit": ""
+                        }
+                    ]
+                },
+                {
+                    "thingattributes": {},
+                    "description": "7697 with DHT11",
+                    "thingId": "fdbe9823-1522-4cd5-9461-2f47ea514146",
+                    "thingname": "MON7697",
+                    "thingtypeattributes": null,
+                    "type": "Custom",
+                    "resources": [
+                        {
+                            "default_value": "",
+                            "description": "",
+                            "datatype": "String",
+                            "resourceid": "HomeEnv",
+                            "old_resourcename": "HomeEnv",
+                            "maxvalue": "",
+                            "minvalue": "",
+                            "old_resourcetype_id": "586dc63a5a6b6800065c0228",
+                            "resoucetypeqiotid": "qiot.custom.string",
+                            "old_resourceObjectid": "5a2790d99c31dc002fabe8a1",
+                            "old_resourceid": "HomeEnv",
+                            "resourcename": "HomeEnv",
+                            "unit": "°C"
+                        }
+                    ]
+                },
+                {
+                    "thingattributes": {},
+                    "description": "",
+                    "thingId": "05ff8234-7b7e-4080-93fe-6a56cd7da1d2",
+                    "thingname": "speak",
+                    "thingtypeattributes": null,
+                    "type": "Custom",
+                    "resources": [
+                        {
+                            "default_value": "",
+                            "description": "",
+                            "datatype": "Boolean",
+                            "resourceid": "action",
+                            "old_resourcename": "action",
+                            "maxvalue": "",
+                            "minvalue": "",
+                            "old_resourcetype_id": "586dc3615a6b6800065c0226",
+                            "resoucetypeqiotid": "qiot.custom.boolean",
+                            "old_resourceObjectid": "5a27b0069c31dc0030744aff",
+                            "old_resourceid": "action",
+                            "resourcename": "action",
+                            "unit": ""
+                        },
+                        {
+                            "default_value": "",
+                            "description": "",
+                            "datatype": "String",
+                            "resourceid": "echotext",
+                            "old_resourcename": "echotext",
+                            "maxvalue": "",
+                            "minvalue": "",
+                            "old_resourcetype_id": "586dc63a5a6b6800065c0228",
+                            "resoucetypeqiotid": "qiot.custom.string",
+                            "old_resourceObjectid": "5a27b0559c31dc0030744b24",
+                            "old_resourceid": "echotext",
+                            "resourcename": "echotext",
+                            "unit": "mbar"
+                        },
+                        {
+                            "default_value": "",
+                            "description": "",
+                            "datatype": "String",
+                            "resourceid": "speak",
+                            "old_resourcename": "speak",
+                            "maxvalue": "",
+                            "minvalue": "",
+                            "old_resourcetype_id": "586dc63a5a6b6800065c0228",
+                            "resoucetypeqiotid": "qiot.custom.string",
+                            "old_resourceObjectid": "5a27b26e9c31dc002f2764c3",
+                            "old_resourceid": "speak",
+                            "resourcename": "speak",
+                            "unit": "°C"
+                        }
+                    ]
+                }
+            ],
+            "rulesdata": {
+                "node_model": {
+                    "freeboardDesc": "",
+                    "freeboardId": "eb89a79cda5211e7821ac312f01c8c0e",
+                    "noderedId": "eb884809da5211e7b6c8e97053b388b1",
+                    "version": 1,
+                    "ruleName": "Rule_MQTTHome",
+                    "freeboardName": "Dashboard_MQTTHome",
+                    "ruleDesc": ""
+                },
+                "rules": "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",
+                "dashboard": "H4sIAAAAAAAAA71Vy46bMBT9F2+yoRGPhADbVqPpZjbtLkLI4BtiCTDjx2SiiH/qN/TLahtomJCmHU2VTYLPfZ1778GcEBXf9pgDSna4EuCgF+CCsgYlnoNwVbFDBoRKlEiutLWtVEkbgZJtqg+4AfN4QgdK5N6GcHZAyQm59hDo385BBasGzJ1i2TlKP5Ug+1zy2Go2qMSqBOQgAVLSphQmg6SyMrbvULfApeLG4QVXyoAESyyY4gWI7eLssUi3C+uySLWzaqgpg37++KxPNW2yMfzTyjUIfv2NeP4aaaYc+qyGwI6zWlsaRoADQSNxSjTor/I43+z8ZR7GbhFp4+D21Vghj6JV5MYEr33Pg00eFhHEG3cd5EEU5Z52N41nDa5nHRIq2gofr9tAFJy20q4MaeCZMpmNnN+G4CHm7207dpqGkBnWQ8WwnA3vvBi9tKGO/ZsRfurRYbESXk0yDs+KmiFaZXVp12lFUfGgJ/w0jLe3OO+Vl/9ReT0qPSEqj38S12i/Lq2LAV9M9z2KCopNBEEQLv24CIPiY4qaNHWxnqnln9RkAkgfcKvT2yK6o4JSZ7q/abUvWOxzhjk5J59C/5ngVXbjxu1OSb52d+4qXJIwxAEyAY9USMZpMVzQ5nW4dg8Mld9gd6c/vwJv8Z/obig8Qe7Off6yzbmn9mJRtfkABt0v7Ua7+DwHAAA="
+            },
+            "description": "",
+            "appname": "MQTTHome"
+        }
+    }
+}
