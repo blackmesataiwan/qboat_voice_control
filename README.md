@@ -15,6 +15,10 @@ This project is use QBoat Sunny connect microphone and speaker integrate QIoT Su
 
     -   Or find nearby "Console" on container station website and click icon to enter terminal
 
+## Mount sound device to container
+
+Reference : https://docs.google.com/document/d/1C1fRLerBMpUq0Wied-8_9bxEvsBHdf6TYLnBnYvWkbo/edit?usp=sharing
+
 ## Install Python to Container
 
     apt update
@@ -29,13 +33,13 @@ Need to install this list:
 3. [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/)
 4. paho-mqtt of python
 
-##Install Module to QIoT Suite Lite Node-Red
+## Install Module to QIoT Suite Lite Node-Red
 
 Install [node-red-contrib-apiai](https://flows.nodered.org/node/node-red-contrib-apiai) in QIoT Suite Lite Node-Red
 
 Reference : [How to install other modules in QIoT Suite Lite NodeRED?](https://www.qnap.com/en/how-to/tutorial/article/how-to-install-other-modules-in-qiot-suite-lite-nodered)
 
-##Start
+## Start
 
  1. Copy "speak" floder to container
  2. Import IoT Application "QIoT_export/MQTTHome.json" to QIoT Suite Lite, Reference : [How to Backup QIoT Suite Lite](https://www.qnap.com/en/how-to/tutorial/article/how-to-backup-qiot-suite-lite)
@@ -46,7 +50,7 @@ Reference : [How to install other modules in QIoT Suite Lite NodeRED?](https://w
  6. Run `python mqtt.py` in container
  6. Then click `Start` in speak flow of QIoT Suite Lite rule, then you can speak to control.
 
-##Authors
+## Authors
 
 It was created by [QNAP Systems, Inc.](https://www.qnap.com/en/index.php)
 
