@@ -17,7 +17,7 @@ This project is use QBoat Sunny connect microphone and speaker integrate QIoT Su
 
 ## Mount sound device to container
 
-Reference : https://docs.google.com/document/d/1C1fRLerBMpUq0Wied-8_9bxEvsBHdf6TYLnBnYvWkbo/edit?usp=sharing
+Reference : https://www.qnap.com/go/how-to/tutorial/article/how-to-use-speakers-when-using-qboat-sunny-an-lxc-example
 
 ## Install Python to Container
 
